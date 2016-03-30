@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:23
+-keep class com.cubic.e3box.CarrierApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.cubic.e3box.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class com.cubic.e3box.MainReceive { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.cubic.e3box.ble.BleService { <init>(...); }
+

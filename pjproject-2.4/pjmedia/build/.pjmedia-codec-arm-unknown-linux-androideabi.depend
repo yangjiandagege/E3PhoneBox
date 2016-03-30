@@ -1,0 +1,489 @@
+output/pjmedia-codec-arm-unknown-linux-androideabi/audio_codecs.o: ../src/pjmedia-codec/audio_codecs.c \
+ ../include/pjmedia-codec.h ../include/pjmedia-codec/audio_codecs.h \
+ ../include/pjmedia/endpoint.h ../include/pjmedia/codec.h \
+ ../include/pjmedia/port.h ../include/pjmedia/clock.h \
+ ../include/pjmedia/types.h ../include/pjmedia/config.h \
+ ../../pjlib/include/pj/config.h ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ ../../pjlib/include/pj/config_site_sample.h \
+ ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/types.h ../include/pjmedia/event.h \
+ ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
+ ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
+ ../../pjlib/include/pj/compat/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/android/api-level.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/malloc.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_wchar_limits.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/stddef.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/compiler.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/kernel.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdlib.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/alloca.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/strings.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/memory.h \
+ ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/assert.h \
+ ../../pjlib/include/pj/os.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/pool.h ../include/pjmedia/sdp.h \
+ ../include/pjmedia/transport.h ../include/pjmedia/errno.h \
+ ../include/pjmedia-codec/passthrough.h ../include/pjmedia-codec/types.h \
+ ../include/pjmedia-codec/config.h ../include/pjmedia-codec/config_auto.h \
+ ../include/pjmedia-codec/l16.h \
+ ../include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ ../include/pjmedia/vid_codec.h ../include/pjmedia-codec/gsm.h \
+ ../include/pjmedia-codec/speex.h ../include/pjmedia-codec/ilbc.h \
+ ../include/pjmedia-codec/g722.h ../include/pjmedia-codec/g7221.h \
+ ../include/pjmedia-codec/ipp_codecs.h \
+ ../include/pjmedia-codec/opencore_amr.h \
+ ../include/pjmedia-codec/openh264.h ../include/pjmedia-codec/silk.h \
+ ../include/pjmedia/g711.h
+output/pjmedia-codec-arm-unknown-linux-androideabi/ffmpeg_vid_codecs.o: ../src/pjmedia-codec/ffmpeg_vid_codecs.c \
+ ../include/pjmedia-codec/ffmpeg_vid_codecs.h \
+ ../include/pjmedia-codec/types.h ../include/pjmedia-codec/config.h \
+ ../include/pjmedia/types.h ../include/pjmedia/config.h \
+ ../../pjlib/include/pj/config.h ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ ../../pjlib/include/pj/config_site_sample.h \
+ ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
+ ../include/pjmedia/codec.h ../include/pjmedia/port.h \
+ ../include/pjmedia/clock.h ../include/pjmedia/event.h \
+ ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
+ ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
+ ../../pjlib/include/pj/compat/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/android/api-level.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/malloc.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_wchar_limits.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/stddef.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/compiler.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/kernel.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdlib.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/alloca.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/strings.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/memory.h \
+ ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/assert.h \
+ ../../pjlib/include/pj/os.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/pool.h ../include/pjmedia/vid_codec.h \
+ ../include/pjmedia-codec/h263_packetizer.h \
+ ../include/pjmedia-codec/h264_packetizer.h ../include/pjmedia/errno.h \
+ ../include/pjmedia/vid_codec_util.h ../include/pjmedia/sdp_neg.h \
+ ../include/pjmedia/sdp.h ../../pjlib/include/pj/log.h \
+ ../../pjlib/include/pj/math.h \
+ ../../pjlib/include/pj/compat/high_precision.h
+output/pjmedia-codec-arm-unknown-linux-androideabi/openh264.o: ../src/pjmedia-codec/openh264.cpp \
+ ../include/pjmedia-codec/openh264.h ../include/pjmedia-codec/types.h \
+ ../include/pjmedia-codec/config.h ../include/pjmedia/types.h \
+ ../include/pjmedia/config.h ../../pjlib/include/pj/config.h \
+ ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ ../../pjlib/include/pj/config_site_sample.h \
+ ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
+ ../include/pjmedia/codec.h ../include/pjmedia/port.h \
+ ../include/pjmedia/clock.h ../include/pjmedia/event.h \
+ ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
+ ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
+ ../../pjlib/include/pj/compat/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/android/api-level.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/malloc.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/stddef.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/compiler.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/kernel.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdlib.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/alloca.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/strings.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/memory.h \
+ ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/assert.h \
+ ../../pjlib/include/pj/os.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/pool.h ../include/pjmedia/vid_codec.h \
+ ../include/pjmedia-codec/h264_packetizer.h \
+ ../include/pjmedia/vid_codec_util.h ../include/pjmedia/sdp_neg.h \
+ ../include/pjmedia/sdp.h ../include/pjmedia/errno.h \
+ ../../pjlib/include/pj/log.h
+output/pjmedia-codec-arm-unknown-linux-androideabi/h263_packetizer.o: ../src/pjmedia-codec/h263_packetizer.c \
+ ../include/pjmedia-codec/h263_packetizer.h ../../pjlib/include/pj/pool.h \
+ ../../pjlib/include/pj/list.h ../../pjlib/include/pj/types.h \
+ ../../pjlib/include/pj/config.h ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ ../../pjlib/include/pj/config_site_sample.h ../include/pjmedia/types.h \
+ ../include/pjmedia/config.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/assert.h \
+ ../../pjlib/include/pj/compat/assert.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/assert.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/android/api-level.h \
+ ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/malloc.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_wchar_limits.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/stddef.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/compiler.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/kernel.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdlib.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/alloca.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/strings.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/memory.h
+output/pjmedia-codec-arm-unknown-linux-androideabi/h264_packetizer.o: ../src/pjmedia-codec/h264_packetizer.c \
+ ../include/pjmedia-codec/h264_packetizer.h \
+ ../../pjlib/include/pj/types.h ../../pjlib/include/pj/config.h \
+ ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ ../../pjlib/include/pj/config_site_sample.h ../include/pjmedia/types.h \
+ ../include/pjmedia/config.h ../include/pjmedia/config_auto.h \
+ ../../pjlib/include/pj/sock.h ../../pjlib/include/pj/assert.h \
+ ../../pjlib/include/pj/compat/assert.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/assert.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/android/api-level.h \
+ ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ ../../pjlib/include/pj/log.h ../../pjlib/include/pj/pool.h \
+ ../../pjlib/include/pj/list.h ../../pjlib/include/pj/string.h \
+ ../../pjlib/include/pj/compat/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/malloc.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_wchar_limits.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/stddef.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/compiler.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/kernel.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdlib.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/alloca.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/strings.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/memory.h
+output/pjmedia-codec-arm-unknown-linux-androideabi/ipp_codecs.o: ../src/pjmedia-codec/ipp_codecs.c \
+ ../include/pjmedia-codec/ipp_codecs.h ../include/pjmedia-codec/types.h \
+ ../include/pjmedia-codec/config.h ../include/pjmedia/types.h \
+ ../include/pjmedia/config.h ../../pjlib/include/pj/config.h \
+ ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ ../../pjlib/include/pj/config_site_sample.h \
+ ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
+ ../include/pjmedia/codec.h ../include/pjmedia/port.h \
+ ../include/pjmedia/clock.h ../include/pjmedia/event.h \
+ ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
+ ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
+ ../../pjlib/include/pj/compat/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/android/api-level.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/malloc.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_wchar_limits.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/stddef.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/compiler.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/kernel.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdlib.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/alloca.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/strings.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/memory.h \
+ ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/assert.h \
+ ../../pjlib/include/pj/os.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/pool.h ../include/pjmedia-codec/amr_sdp_match.h \
+ ../include/pjmedia/sdp_neg.h ../include/pjmedia/sdp.h \
+ ../include/pjmedia-codec/g7221_sdp_match.h ../include/pjmedia/errno.h \
+ ../include/pjmedia/endpoint.h ../include/pjmedia/transport.h \
+ ../include/pjmedia/plc.h ../include/pjmedia/silencedet.h \
+ ../../pjlib/include/pj/log.h ../../pjlib/include/pj/math.h \
+ ../../pjlib/include/pj/compat/high_precision.h
+output/pjmedia-codec-arm-unknown-linux-androideabi/silk.o: ../src/pjmedia-codec/silk.c ../include/pjmedia-codec/silk.h \
+ ../include/pjmedia-codec/types.h ../include/pjmedia-codec/config.h \
+ ../include/pjmedia/types.h ../include/pjmedia/config.h \
+ ../../pjlib/include/pj/config.h ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ ../../pjlib/include/pj/config_site_sample.h \
+ ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
+ ../include/pjmedia/codec.h ../include/pjmedia/port.h \
+ ../include/pjmedia/clock.h ../include/pjmedia/event.h \
+ ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
+ ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
+ ../../pjlib/include/pj/compat/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/android/api-level.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/malloc.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_wchar_limits.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/stddef.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/compiler.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/kernel.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdlib.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/alloca.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/strings.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/memory.h \
+ ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/assert.h \
+ ../../pjlib/include/pj/os.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/pool.h ../include/pjmedia/delaybuf.h \
+ ../include/pjmedia/endpoint.h ../include/pjmedia/sdp.h \
+ ../include/pjmedia/transport.h ../include/pjmedia/errno.h \
+ ../../pjlib/include/pj/log.h
+output/pjmedia-codec-arm-unknown-linux-androideabi/speex_codec.o: ../src/pjmedia-codec/speex_codec.c \
+ ../include/pjmedia-codec/speex.h ../include/pjmedia-codec/types.h \
+ ../include/pjmedia-codec/config.h ../include/pjmedia/types.h \
+ ../include/pjmedia/config.h ../../pjlib/include/pj/config.h \
+ ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ ../../pjlib/include/pj/config_site_sample.h \
+ ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/types.h ../include/pjmedia-codec/config_auto.h \
+ ../include/pjmedia/codec.h ../include/pjmedia/port.h \
+ ../include/pjmedia/clock.h ../include/pjmedia/event.h \
+ ../include/pjmedia/format.h ../include/pjmedia/signatures.h \
+ ../include/pjmedia/frame.h ../../pjlib/include/pj/string.h \
+ ../../pjlib/include/pj/compat/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/android/api-level.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/malloc.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_wchar_limits.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/stddef.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/compiler.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/kernel.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdlib.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/alloca.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/strings.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/memory.h \
+ ../../pjlib/include/pj/assert.h ../../pjlib/include/pj/compat/assert.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/assert.h \
+ ../../pjlib/include/pj/os.h ../../pjlib/include/pj/errno.h \
+ ../../pjlib/include/pj/compat/errno.h ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/pool.h ../include/pjmedia/errno.h \
+ ../include/pjmedia/endpoint.h ../include/pjmedia/sdp.h \
+ ../include/pjmedia/transport.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/vendor/forge/cubic/pjproject-2.4/third_party/speex/include/speex/speex.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/vendor/forge/cubic/pjproject-2.4/third_party/speex/include/speex/speex_bits.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/vendor/forge/cubic/pjproject-2.4/third_party/speex/include/speex/speex_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/vendor/forge/cubic/pjproject-2.4/third_party/build/speex/speex/speex_config_types.h \
+ ../../pjlib/include/pj/log.h
+output/pjmedia-codec-arm-unknown-linux-androideabi/g7221_sdp_match.o: ../src/pjmedia-codec/g7221_sdp_match.c \
+ ../include/pjmedia-codec/g7221_sdp_match.h ../include/pjmedia/sdp_neg.h \
+ ../include/pjmedia/sdp.h ../include/pjmedia/types.h \
+ ../include/pjmedia/config.h ../../pjlib/include/pj/config.h \
+ ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ ../../pjlib/include/pj/config_site_sample.h \
+ ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/types.h ../include/pjmedia/errno.h \
+ ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/android/api-level.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/malloc.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_wchar_limits.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/stddef.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/compiler.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/kernel.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdlib.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/alloca.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/strings.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/memory.h
+output/pjmedia-codec-arm-unknown-linux-androideabi/amr_sdp_match.o: ../src/pjmedia-codec/amr_sdp_match.c \
+ ../include/pjmedia-codec/amr_sdp_match.h ../include/pjmedia/sdp_neg.h \
+ ../include/pjmedia/sdp.h ../include/pjmedia/types.h \
+ ../include/pjmedia/config.h ../../pjlib/include/pj/config.h \
+ ../../pjlib/include/pj/compat/cc_gcc.h \
+ ../../pjlib/include/pj/compat/os_auto.h \
+ ../../pjlib/include/pj/compat/m_auto.h \
+ ../../pjlib/include/pj/compat/size_t.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ ../../pjlib/include/pj/config_site.h \
+ ../../pjlib/include/pj/config_site_sample.h \
+ ../include/pjmedia/config_auto.h ../../pjlib/include/pj/sock.h \
+ ../../pjlib/include/pj/types.h ../include/pjmedia/errno.h \
+ ../../pjlib/include/pj/errno.h ../../pjlib/include/pj/compat/errno.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ ../../pjlib/include/pj/pool.h ../../pjlib/include/pj/list.h \
+ ../../pjlib/include/pj/string.h ../../pjlib/include/pj/compat/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/string.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/android/api-level.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/malloc.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdint.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/_wchar_limits.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/stddef.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/compiler.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/posix_types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/asm/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/linux/types.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/machine/kernel.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/sys/sysmacros.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/stdlib.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/alloca.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/strings.h \
+ /home/yangjian/e3box/ALPS.L1.MP8.V2.9_SIGNAL8127_TB_L1/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include/memory.h

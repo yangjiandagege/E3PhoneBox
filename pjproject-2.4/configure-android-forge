@@ -1,0 +1,23 @@
+#!/bin/bash
+FORGE_ANDROID_ROOT=$1
+export ANDROID_SYSROOT=${FORGE_ANDROID_ROOT}/prebuilts/ndk/9/platforms/android-18/arch-arm
+export CC=${FORGE_ANDROID_ROOT}/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-gcc
+export CXX=${FORGE_ANDROID_ROOT}/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-g++
+export AR=${FORGE_ANDROID_ROOT}/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-ar
+export RANLIB=${FORGE_ANDROID_ROOT}/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-gcc-ranlib
+export LDFLAGS="-nostdlib -L${FORGE_ANDROID_ROOT}/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/lib -L${FORGE_ANDROID_ROOT}/prebuilts/ndk/9/sources/cxx-stl/gnu-libstdc++/4.7/libs/armeabi"
+export LIBS="${FORGE_ANDROID_ROOT}/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/lib/crtbegin_so.o -lgnustl_static -lc -lgcc"
+export CFLAGS="-I${FORGE_ANDROID_ROOT}/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include -I${FORGE_ANDROID_ROOT}/prebuilts/ndk/9/sources/cxx-stl/gnu-libstdc++/4.7/include -I${FORGE_ANDROID_ROOT}/prebuilts/ndk/9/sources/cxx-stl/gnu-libstdc++/4.7/libs/armeabi/include -fexceptions"
+export CPPFLAGS="-I${FORGE_ANDROID_ROOT}/prebuilts/ndk/9/platforms/android-18/arch-arm/usr/include -fexceptions"
+export CXXFLAGS="-shared --sysroot=${FORGE_ANDROID_ROOT}/prebuilts/ndk/9/platforms/android-18/arch-arm -fexceptions"
+export TARGET_HOST=arm-linux-androideabi
+./configure --host=${TARGET_HOST} \
+    --enable-silk \
+    --with-silk=${FORGE_ANDROID_ROOT}/vendor/forge/cubic/pjproject-2.4/third_party \
+    --disable-gsm-codec \
+    --disable-ilbc-codec \
+    --disable-speex-codec \
+    --disable-g7221-codec \
+    --disable-g722-codec \
+    --disable-speex-aec \
+    --disable-l16-codec 
